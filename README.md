@@ -20,6 +20,11 @@ The binaries were compiled to run on Ubuntu 16.04. 64-bit Windows binaries will 
 ### Dependencies
 {to be documented}
 
+## Roles and Responsibilities
+The goal is to launch a successful Equibit network. We welcome all contributions and expertise that will help make that goal a reality. Everyone who has been given access to this repository has unique experience with peer-to-peer network. Let's all be respectful of each other and operate under the basis of peers working with peers.  
+
+The Equibit network needs our expertise in running nodes, but also in setting up a good community management process, documentation, community leadership, and more. Please make sure to join the Equibit Testnet A-Team channel on Telegram by contacting christian@equibitgroup.com.
+
 ### Terms and Conditions
 #### Disclaimer of Warranty. 
 Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
