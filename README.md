@@ -28,8 +28,9 @@ The port forwarding settings should allow you to map an external port on your ro
 
 After filling in the details for the mapping, save the entry. You should not need to restart anything. Start Equibit Core (if you haven’t already).
 
-### Dependencies
-{to be documented}
+### Dependencies (see Wiki section for instructions)
+Boost 1.58
+libevent-2.0.22
 
 ## Roles and Responsibilities
 The goal is to launch a successful Equibit network. We welcome all contributions and expertise that will help make that goal a reality. Everyone who has been given access to this repository has unique experience with peer-to-peer network. Let's all be respectful of each other and operate under the basis of peers working with peers.  
