@@ -17,6 +17,17 @@ Once the Testnet period is over, a production-ready Mainnet application will be 
 ## How to run the Binaries
 The binaries were compiled to run on Ubuntu 16.04. 64-bit Windows binaries will also be provided shortly. Equibit is a modified fork of the Bitcoin repository. Most Bitcoin dependencies and APIs are shared with Equibit. Additional details to follow.
 
+### Port forwarding
+To allow incoming connections to your Equibit node, port 8330 needs to be open.
+
+For this step, you need to know the local IP address of the computer running Equibit Core.
+
+Login to your router using the same steps described near the top of the DHCP subsection. Look for an option called Port Forwarding, Port Assignment, or anything with “Port” in its name. On some routers, this option is buried in an Applications & Gaming menu.
+
+The port forwarding settings should allow you to map an external port on your router to the “internal port” of a device on your network. Both the external port and the internal port should be 8330 for Equibit.
+
+After filling in the details for the mapping, save the entry. You should not need to restart anything. Start Equibit Core (if you haven’t already).
+
 ### Dependencies
 {to be documented}
 
