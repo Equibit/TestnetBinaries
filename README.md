@@ -31,7 +31,7 @@ After filling in the details for the mapping, save the entry. You should not nee
 ### Dependencies (see Wiki section for instructions)
 Boost 1.58
 
-libevent-2.0.22
+libevent-2.0
 
 ## Roles and Responsibilities
 The goal is to launch a successful Equibit network. We welcome all contributions and expertise that will help make that goal a reality. Everyone who has been given access to this repository has unique experience with peer-to-peer network. Let's all be respectful of each other and operate under the basis of peers working with peers.  
