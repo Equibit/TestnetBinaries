@@ -6,7 +6,7 @@ Launch the build script to compile the libraries
 ```
 
 Once the script is completed, you should find a folder called `eqb` has been created.
-Copy the `equibitd` file to the current folder so that you have, it the same level:
+Copy the `equibitd` file to the current folder so that you have, at the same level:
 ```
 eqb/
 equibitd
