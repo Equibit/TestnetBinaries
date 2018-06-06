@@ -22,7 +22,7 @@ To allow incoming connections to your Equibit node, port 8330 needs to be open.
 
 For this step, you need to know the local IP address of the computer running Equibit Core.
 
-Login to your router using the same steps described near the top of the DHCP subsection. Look for an option called Port Forwarding, Port Assignment, or anything with “Port” in its name. On some routers, this option is buried in an Applications & Gaming menu.
+Login to your router. Look for an option called Port Forwarding, Port Assignment, or anything with “Port” in its name. On some routers, this option is buried in an Applications & Gaming menu.
 
 The port forwarding settings should allow you to map an external port on your router to the “internal port” of a device on your network. Both the external port and the internal port should be 8330 for Equibit.
 
