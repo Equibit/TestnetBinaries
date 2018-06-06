@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+cd $(dirname "$0")
+
+RELEASE=$(lsb_release -cs)
+
+time (cat Dockerfile | sed -e 's/\$\$RELEASE\$\$/${RELEASE}/' | docker build -t equibit-build:${RELEASE} -)
+CONTAINER_ID=$(docker run -d equibit-build:${RELEASE})
+
+OUTPUT_DIR=eqb
+[ -d ./${OUTPUT_DIR} ] && rm -rf ./${OUTPUT_DIR}
+mkdir ./${OUTPUT_DIR}
+
+docker cp ${CONTAINER_ID}:/equibit/lib ./${OUTPUT_DIR}/
+docker stop ${CONTAINER_ID}
